@@ -23,5 +23,5 @@ int main()
         string word = words[i];
         cout << word[0] << word.length()-2 << word[word.length()-1] << endl;
     }
-    
 }
+//https://codeforces.com/problemset/problem/71/A

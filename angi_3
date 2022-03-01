@@ -1,0 +1,19 @@
+#include<iostream>
+#include<set>
+using namespace std;
+int main()
+{
+    set<string> names {"Bold", "Adya", "Ochir", "Naran", "Onon", "Anan", "Temujin", "Bud"};
+    string input{};
+    cout << "Enter name: ";
+    cin >> input;
+    cout << endl;
+    for (auto i : names)
+    {
+        if(input == i){
+            cout << "Burtgeltei" << endl;
+            return 0;
+        }
+    }
+    cout << "Burtgelgui" << endl;   
+}
